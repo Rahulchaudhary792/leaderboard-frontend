@@ -1,0 +1,191 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    width: 300px;
+    margin: auto;
+    background-color: lavender;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.leaderboard-tabs {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.leaderboard-tabs button {
+    background-color: #ffd700;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.leaderboard-tabs button.active {
+    background-color: #ffa500;
+}
+
+.leaderboard-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: rgb(196, 212, 202);
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.leaderboard-item img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.leaderboard-item .details {
+    flex-grow: 1;
+    margin-left: 10px;
+}
+
+.leaderboard-item .details span {
+    display: block;
+}
+
+.leaderboard-item .rank,
+.leaderboard-item .prize {
+    text-align: center;
+}
+
+.timer {
+    text-align: center;
+    margin-top: 10px;
+}
+select {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: cornsilk;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+}
+
+select:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  /*background-color: #28a745;*/
+  background-color: rgb(35, 199, 70);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+.claimPoints {
+  color: #666699;
+}
+
+input {
+    padding: 10px;
+    width: 130px;
+    border-radius: 5px;
+    background-color: cornsilk;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+}
+
+.viewHistory-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.viewHistory {
+    background-color: darkmagenta;
+    text-align: center;
+}
+
+.pointsHistory-h2 {
+  text-align: center;
+}
+
+.history-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 10px;
+  color: white;
+  background-color: plum;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(198, 53, 53, 0.1);
+}
+
+.history-item img {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+
+.history-item .details {
+  flex-grow: 1;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.history-item .details span {
+  display: block;
+}
+
+.history-item .rank,
+.history-item .prize {
+  text-align: center;
+}
+
+.close-button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  /*background-color: #28a745;*/
+  background-color: rgb(35, 199, 70);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+  top: 30px;
+  transition: background-color 0.3s ease;
+}
+
+.emoji {
+  font-size: 25px;
+}
